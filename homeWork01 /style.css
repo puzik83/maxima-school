@@ -1,0 +1,29 @@
+
+body {
+    color: #51656e;
+    border: #343434;
+    font-family: 'Monserrat',sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 15px;
+    padding: 10px;
+}
+
+p {
+    color: #343434;
+    font-size: 20px;
+    font-style: italic;
+}
+
+select {
+    background-color: beige;
+    font-size: 12px;
+}
+input {
+    background-color: bisque;
+    font-size: 12px;
+}
+
+.yellow-background {
+    background-color: #e8dda3;
+}
