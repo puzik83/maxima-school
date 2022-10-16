@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>sticky</title>
+    <style>
+        .container {
+          margin: 5px;
+          border: 1px solid black;
+          padding: 5px;
+          height: 10rem;
+          width: 27rem;
+        }
+
+        .text {
+          display: block;
+          float: left;
+          height: 9rem;
+          width: 8rem;
+          font-family: 'Courier New', Courier, monospace;
+        }
+
+        .sticky {
+          position: sticky;
+          top: 0;
+        }
+
+        .block{
+          display: inline-block;
+          background-color:tomato;
+          height: 3rem;
+          width: 9rem;
+          border: none;
+        }
+      
+        .blue{
+          display: inline-block;
+          background-color: cornflowerblue;
+          height: 3rem;
+          width: 9rem;
+          border: none;
+        }
+    </style>
+</head>
+
+<body>
+  <div class="container">
+  <div class="text">
+    <header class="sticky">STICKY TITLE1</header>
+  </div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="blue"></div>
+</div>
+
+  <div class="container">
+    <div class="text">
+      <header class="sticky">STICKY TITLE2</header>
+    </div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="block"></div>
+    <div class="blue"></div>
+  </div>
+
+    <div class="container">
+      <div class="text">
+        <header class="sticky">STICKY TITLE3</header>
+      </div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="block"></div>
+      <div class="blue"></div>
+    </div>
+
+    </body>
+    </html>

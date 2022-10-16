@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>position</title>
+    <style>
+       body {
+        background-image: url(img_6309.jpg);
+        background-size: 100rem 90rem;
+        background-position: center;
+        background-repeat:no-repeat;
+      }
+
+      header {
+        margin: 2rem;
+        padding: 1rem;
+        color:gold;
+        font-family: Helvetica, Arial, sans-serif;
+        font-weight: bold;
+        font-size: 5rem;
+        line-height: 1.5;
+        text-align: center;
+        text-shadow: 3px 3px #ff0000;
+        position: absolute;
+        z-index: 300;
+      }
+
+      .overlay {
+        background-color: rgba(125, 21, 203, 0.6);
+        height: 100%;
+        left: 0;
+        position: absolute;
+        top: 0;
+        width: 100%;
+        z-index: 200;
+      }
+    </style>
+  </head>
+  <body >
+    <header>Every sunset is followed by sunrise.</header>
+    <div class="overlay"></div>
+  </body>
+</html>
+
+
