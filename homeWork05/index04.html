@@ -1,0 +1,14 @@
+<!-- 4. Напишите программу на JavaScript для получения ширины и высоты окна (при каждом изменении размера окна) -->
+<html>
+<body onload = "getWindowSize()">
+   
+    <script>
+      function getWindowSize () {
+        var w = document.documentElement.clientWidth;
+        var h = document.documentElement.clientHeight;
+        alert ("Ширина окна " + w);
+        alert ("Высота окна " + h);
+      }
+    </script>
+</body>
+</html>

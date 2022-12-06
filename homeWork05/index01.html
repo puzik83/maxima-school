@@ -1,0 +1,21 @@
+<!-- Вот пример html-файла с кнопкой отправки.
+Измените стиль текста абзаца с помощью кода javascript. -->
+
+<html>
+<body>
+    <p id='text'> JavaScript - Хороший язык</p>
+    <script> 
+   document.getElementById('text').style.color = "green";
+    </script>
+    <div>
+        <button id="btn" onclick="changeColor()">Стилизовать</button>
+    </div>
+    <script>
+        function changeColor() {
+            document.getElementById('text').style.color = "red";
+        }
+    </script>
+</body>
+</html>
+
+

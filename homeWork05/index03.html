@@ -1,0 +1,21 @@
+<!-- 3. Напишите программу на JavaScript для удаления элементов из раскрывающегося списка-->
+<html>
+<body>
+    <form>
+        <select id="select-data">
+            <option>Красный</option>
+            <option>Зеленый</option>
+            <option>Белый</option>
+            <option>Черный</option>
+        </select>
+        <input type="button" onclick="removeOption()" value="Выбрать и удалить">
+    </form>
+    <script>
+        function removeOption() {
+            var a = 
+            document.getElementById("select-data");
+            a.remove(a.selectedIndex);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!-- 2. Напишите функцию JavaScript для добавления строк в таблицу. -->
+
+<html>
+<body>
+    <table id="some-table">
+        <tr>
+            <td>Строка1 столбец1</td>
+            <td>Строка1 столбец2</td>
+        </tr>
+        <tr>
+            <td>Строка2 столбец1</td>
+            <td>Строка2 столбец2</td>
+        </tr>
+    </table><br>
+    <input type="button" onclick="insertRow()" value="Вставить Строку">
+    <script>
+        function insertRow(){
+            var table = 
+            document.getElementById("some-table");
+            var row = table.insertRow(0);
+            row.innerHTML = "Новая строка";
+        }
+    </script>
+</body>
+</html>

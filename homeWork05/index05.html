@@ -1,0 +1,26 @@
+<!-- 5. Напишите программу на JavaScript для вычисления объема сферы -->
+<!DOCTYPE html>
+<html>
+    <style>
+        input {
+            display: block;
+        }
+    </style>
+<body>
+    <p>Введите значение радиуса и вычислится объем сферы.</p>
+    <form>
+        <label for="radius">Радиус</label>
+        <input type="text" name="radius" id="radius">
+        <label for="volume">Объем</label>
+        <input type="text" name="volume" value="0.0000" id="volume">
+        <input type="button" onclick="findVolume()" value="Вычислить" />
+        </form>
+    <script>
+        function findVolume() {
+            let radius = parseFloat(document.getElementById("radius").value);
+            let volume = (4/3) * Math.PI * Math.pow(radius, 3);
+            document.getElementById("volume").value = volume.toFixed(4);
+        }
+    </script>
+</body>
+</html>
