@@ -12,3 +12,6 @@ __________________________________
 ___________________________________
 ## Home Work 4
 ### https://github.com/puzik83/maxima-school/tree/main/homeWork04
+___________________________________
+## Home Work 5
+### https://github.com/puzik83/maxima-school/tree/main/homeWork05
