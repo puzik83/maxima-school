@@ -1,0 +1,19 @@
+{
+  "name": "maxima-school",
+  "version": "1.0.0",
+  "description": "__________________________________ ## Home Work 1 ### https://github.com/puzik83/maxima-school/tree/main/homeWork01%20 __________________________________ ## Home Work 2 ### https://github.com/puzik83/maxima-school/tree/main/homeWork02 __________________________________ ## Home Work 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/puzik83/maxima-school.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/puzik83/maxima-school/issues"
+  },
+  "homepage": "https://github.com/puzik83/maxima-school#readme"
+}
