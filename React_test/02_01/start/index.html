@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <script
+      src="https://unpkg.com/react@17/umd/react.development.js"
+      crossorigin
+    ></script>
+    <script
+      src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"
+      crossorigin
+    ></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    <title>React ⚛️</title>
+  </head>
+  <body>
+    <div id="heading"></div>
+    <script type="text/javascript">
+     /* ReactDOM.render(
+        React.createElement("h1", null, "Getting Started with React"),
+        document.getElementById("root")
+      )*/
+      let heading = React.createElement(
+        "h1",
+        null,
+        "Getting Started with React!!"
+      );
+      ReactDOM.render(
+        heading,
+        document.getElementById("heading")
+      );
+    </script>
+
+    <div id="root"></div>
+    <script type="text/babel">
+         /*let ul = React.createElement(
+        "ul",
+        { style: { color: "blue"}},
+        React.createElement(
+          "li", 
+          null, 
+          "save"
+      ),
+        React.createElement(
+          "li",
+          null,
+          "me"
+        ),
+        React.createElement(
+          "li",
+          null,
+          "JSX"
+        )
+        );*/
+        let robot = "🤖";
+        let stars = "🤩";
+        let smile = "😜";
+        let name = "React";
+      ReactDOM.render(
+        <ul>
+        <li>{robot}</li>
+        <li>{stars}</li>
+        <li>{smile}</li>
+        <li>{name.toUpperCase()}</li>
+        <li>{name.length}</li>
+        </ul>,
+        document.getElementById("root")
+      );
+    </script>
+    <div id="new"></div>
+    <script type="text/babel">
+      function Header(props) {
+        console.log(props);
+        return (
+        <header>
+          <h2>{props.name} is great</h2>
+          </header>
+        );
+      }
+      function Main(props) {
+        console.log(props);
+        return (
+          <section>
+            <p>She has {props.adjective} eyes.</p>
+          </section>
+        );
+      }
+      function Footer(props) {
+        return (
+          <footer>
+            <p>Copyright {props.year}</p>
+          </footer>
+        );
+      }
+      function App() {
+        return (
+          <div>
+            <Header name="Tatiana" />
+            <Main adjective="beautiful" />
+            <Footer year={new Date().getFullYear()} />
+          </div>
+        );
+      }
+      ReactDOM.render(
+       <App />,
+        document.getElementById("new")
+      );
+    </script>
+  </body>
+</html>
