@@ -24,3 +24,6 @@ ___________________________________
 
 ## Home Work Hooks
 ### https://github.com/puzik83/maxima-school/tree/main/homeWorkHooks
+
+## Home Work Context Ref
+### https://github.com/puzik83/maxima-school/tree/main/homeWorkContextRef
