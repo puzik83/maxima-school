@@ -16,5 +16,11 @@ ___________________________________
 ## Home Work 5
 ### https://github.com/puzik83/maxima-school/tree/main/homeWork05
 
+## Home Work 7
+### https://github.com/puzik83/maxima-school/tree/main/homeWork07
+
 ## Home Work Life Cycle Methods
 ### https://github.com/puzik83/maxima-school/blob/main/homeWorkLifeCycle/index.js
+
+## Home Work Hooks
+### https://github.com/puzik83/maxima-school/tree/main/homeWorkHooks
